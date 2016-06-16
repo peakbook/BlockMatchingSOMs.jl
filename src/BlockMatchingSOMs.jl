@@ -1,5 +1,8 @@
 module BlockMatchingSOMs
 
-# package code goes here
+using Distances
 
-end # module
+include("initializer.jl")
+include("bmsom.jl")
+
+end
